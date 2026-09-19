@@ -8,11 +8,16 @@
         content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="VELORA — Premium café, artisan bakery and specialty coffee.">
+        content="VELORA Café — Premium coffee, handcrafted desserts and a warm café experience.">
 
-    <meta name="theme-color" content="#11100e">
+    <title>VELORA Café | Coffee & Desserts</title>
 
-    <title>VELORA | Café & Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,23 +34,19 @@
                 VELORA
             </a>
 
+            <button class="menu-toggle" aria-label="Open Menu">
+                ☰
+            </button>
+
             <nav class="nav">
-                <a href="#home">Home</a>
+
+                <a href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
                 <a href="about.html">About</a>
                 <a href="gallery.html">Gallery</a>
                 <a href="contact.html">Contact</a>
+
             </nav>
-
-            <a href="https://wa.me/919987475783"
-                class="nav-btn"
-                target="_blank">
-                Order Now
-            </a>
-
-            <button class="menu-toggle" aria-label="Open menu">
-                ☰
-            </button>
 
         </div>
 
@@ -56,78 +57,35 @@
 
     <main>
 
-        <section id="home" class="hero">
+        <section class="hero">
 
             <div class="hero-overlay"></div>
 
             <div class="container hero-content">
 
                 <p class="eyebrow">
-                    SPECIALTY COFFEE • ARTISAN BAKERY
+                    PREMIUM CAFÉ • EST. 2026
                 </p>
 
                 <h1>
-                    Freshly Crafted.<br>
-                    <span>Beautifully Served.</span>
+                    Coffee made<br>
+                    for slow moments.
                 </h1>
 
                 <p class="hero-text">
-                    Discover handcrafted coffee, freshly baked
-                    treats and unforgettable moments at VELORA.
+                    Handcrafted coffee, fresh pastries and beautifully
+                    made desserts — served in a space designed to make
+                    every moment feel special.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="menu.html"
-                        class="btn btn-primary">
+                    <a href="menu.html" class="btn btn-primary">
                         Explore Menu
                     </a>
 
-                    <a href="https://wa.me/919987475783"
-                        class="btn btn-outline"
-                        target="_blank">
-                        Order on WhatsApp
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= INTRO ================= -->
-
-        <section class="intro section">
-
-            <div class="container intro-grid">
-
-                <div>
-
-                    <p class="section-label">
-                        WELCOME TO VELORA
-                    </p>
-
-                    <h2>
-                        More Than Coffee.<br>
-                        <span>A Moment Worth Savoring.</span>
-                    </h2>
-
-                </div>
-
-                <div>
-
-                    <p>
-                        At VELORA, every cup, cake and plate is
-                        crafted with attention to detail. From rich
-                        specialty coffee to artisan desserts, we
-                        create a place where great taste meets a
-                        beautiful atmosphere.
-                    </p>
-
-                    <a href="about.html"
-                        class="text-link">
-                        Discover Our Story →
+                    <a href="contact.html" class="btn btn-outline">
+                        Visit Us
                     </a>
 
                 </div>
@@ -139,114 +97,102 @@
 
         <!-- ================= FEATURED ================= -->
 
-        <section class="featured section">
+        <section class="section">
 
             <div class="container">
 
                 <div class="section-heading">
 
-                    <div>
+                    <p class="eyebrow">
+                        OUR FAVOURITES
+                    </p>
 
-                        <p class="section-label">
-                            OUR FAVORITES
-                        </p>
+                    <h2>
+                        Crafted with care.
+                    </h2>
 
-                        <h2>
-                            Crafted To Be
-                            <span>Loved.</span>
-                        </h2>
-
-                    </div>
-
-                    <a href="menu.html"
-                        class="text-link">
-                        View Full Menu →
-                    </a>
+                    <p>
+                        From rich coffee to delicate desserts,
+                        every item is prepared to make your visit memorable.
+                    </p>
 
                 </div>
 
 
                 <div class="product-grid">
 
+                    <!-- Coffee -->
 
                     <article class="product-card">
 
                         <div class="product-image coffee-image"></div>
 
-                        <div class="product-info">
+                        <div class="product-content">
 
-                            <p class="product-category">
-                                SPECIALTY COFFEE
-                            </p>
+                            <span class="product-number">
+                                01
+                            </span>
 
                             <h3>
-                                Velora Signature
+                                Signature Coffee
                             </h3>
 
                             <p>
-                                Rich espresso with smooth,
-                                balanced notes.
+                                Smooth, aromatic and carefully brewed
+                                for the perfect cup.
                             </p>
-
-                            <strong>
-                                ₹180
-                            </strong>
 
                         </div>
 
                     </article>
 
+
+                    <!-- Cake -->
 
                     <article class="product-card">
 
                         <div class="product-image cake-image"></div>
 
-                        <div class="product-info">
+                        <div class="product-content">
 
-                            <p class="product-category">
-                                ARTISAN BAKERY
-                            </p>
+                            <span class="product-number">
+                                02
+                            </span>
 
                             <h3>
-                                Velvet Chocolate Cake
+                                Signature Cakes
                             </h3>
 
                             <p>
-                                Decadent chocolate layers
-                                with silky cream.
+                                Soft, rich and beautifully finished
+                                for every sweet craving.
                             </p>
-
-                            <strong>
-                                ₹260
-                            </strong>
 
                         </div>
 
                     </article>
 
 
+                    <!-- Pastry -->
+
                     <article class="product-card">
 
                         <div class="product-image pastry-image"></div>
 
-                        <div class="product-info">
+                        <div class="product-content">
 
-                            <p class="product-category">
-                                FRESHLY BAKED
-                            </p>
+                            <span class="product-number">
+                                03
+                            </span>
 
                             <h3>
-                                Butter Croissant
+                                Fresh Pastries
                             </h3>
 
                             <p>
-                                Crisp, flaky and baked fresh
-                                every morning.
+                                Freshly prepared pastries with
+                                a delicious golden finish.
                             </p>
-
-                            <strong>
-                                ₹140
-                            </strong>
 
                         </div>
 
@@ -261,46 +207,116 @@
 
         <!-- ================= EXPERIENCE ================= -->
 
-        <section class="experience section">
+        <section class="experience">
 
             <div class="container experience-grid">
 
+                <div class="experience-image"></div>
+
                 <div class="experience-content">
 
-                    <p class="section-label">
+                    <p class="eyebrow">
                         THE VELORA EXPERIENCE
                     </p>
 
                     <h2>
-                        Slow Down.<br>
-                        <span>Stay A Little Longer.</span>
+                        More than coffee.
+                        It's a feeling.
                     </h2>
 
                     <p>
-                        Whether you're catching up with friends,
-                        working on your next idea or simply enjoying
-                        your coffee, VELORA is designed for moments
-                        that deserve more time.
+                        VELORA is created for people who appreciate
+                        good coffee, beautiful spaces and meaningful
+                        conversations.
                     </p>
 
-                    <a href="gallery.html"
-                        class="btn btn-primary">
-                        Explore Gallery
+                    <p>
+                        Whether you're starting your morning, meeting
+                        friends or simply taking a break, there's always
+                        a place for you at VELORA.
+                    </p>
+
+                    <a href="about.html" class="text-link">
+                        Discover Our Story →
                     </a>
 
                 </div>
 
+            </div>
 
-                <div class="experience-card">
+        </section>
 
-                    <div class="experience-card-inner">
 
-                        <p>EST.</p>
+        <!-- ================= REVIEWS ================= -->
 
-                        <strong>2026</strong>
+        <section class="section reviews">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        GUEST NOTES
+                    </p>
+
+                    <h2>
+                        Loved by coffee people.
+                    </h2>
+
+                </div>
+
+
+                <div class="review-grid">
+
+                    <div class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "Beautiful atmosphere, great coffee and
+                            the desserts were absolutely delicious."
+                        </p>
 
                         <span>
-                            VELORA CAFÉ
+                            — A Happy Guest
+                        </span>
+
+                    </div>
+
+
+                    <div class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "A perfect place to slow down, relax and
+                            enjoy a really good cup of coffee."
+                        </p>
+
+                        <span>
+                            — A Happy Guest
+                        </span>
+
+                    </div>
+
+
+                    <div class="review-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            "The presentation, ambience and service
+                            make VELORA feel truly special."
+                        </p>
+
+                        <span>
+                            — A Happy Guest
                         </span>
 
                     </div>
@@ -312,112 +328,34 @@
         </section>
 
 
-        <!-- ================= REVIEWS ================= -->
-
-        <section class="reviews section">
-
-            <div class="container">
-
-                <div class="section-heading centered">
-
-                    <p class="section-label">
-                        CUSTOMER LOVE
-                    </p>
-
-                    <h2>
-                        Moments Worth
-                        <span>Sharing.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="review-grid">
-
-
-                    <article class="review-card">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
-                            “Beautiful atmosphere, amazing coffee
-                            and the desserts are incredible.”
-                        </p>
-
-                        <strong>
-                            — Aarav
-                        </strong>
-
-                    </article>
-
-
-                    <article class="review-card">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
-                            “A perfect place to relax, meet friends
-                            and enjoy really good food.”
-                        </p>
-
-                        <strong>
-                            — Riya
-                        </strong>
-
-                    </article>
-
-
-                    <article class="review-card">
-
-                        <div class="stars">
-                            ★★★★★
-                        </div>
-
-                        <p>
-                            “The signature coffee is definitely
-                            worth trying.”
-                        </p>
-
-                        <strong>
-                            — Kabir
-                        </strong>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
         <!-- ================= CTA ================= -->
 
-        <section class="cta section">
+        <section class="cta">
+
+            <div class="cta-overlay"></div>
 
             <div class="container cta-content">
 
-                <p class="section-label">
-                    YOUR TABLE AWAITS
+                <p class="eyebrow">
+                    COME SAY HELLO
                 </p>
 
                 <h2>
-                    Good Coffee.<br>
-                    <span>Good Company.</span>
+                    Your table is waiting.
                 </h2>
 
                 <p>
-                    Visit VELORA and make your next
-                    moment memorable.
+                    Come for the coffee.
+                    Stay for the moment.
                 </p>
 
-                <a href="contact.html"
+                <a
+                    href="https://wa.me/919987475783"
+                    target="_blank"
                     class="btn btn-primary">
-                    Visit VELORA
+
+                    Chat on WhatsApp
+
                 </a>
 
             </div>
@@ -433,25 +371,18 @@
 
         <div class="container footer-grid">
 
-
-            <!-- VELORA -->
-
             <div>
 
-                <a href="index.html"
-                    class="logo">
+                <a href="index.html" class="logo">
                     VELORA
                 </a>
 
                 <p>
-                    Specialty coffee, artisan bakery
-                    and beautiful moments.
+                    Coffee, desserts and moments worth remembering.
                 </p>
 
             </div>
 
-
-            <!-- NAVIGATION -->
 
             <div>
 
@@ -459,31 +390,18 @@
                     Explore
                 </h4>
 
-                <a href="menu.html">
-                    Menu
-                </a>
-
-                <a href="about.html">
-                    About
-                </a>
-
-                <a href="gallery.html">
-                    Gallery
-                </a>
-
-                <a href="contact.html">
-                    Contact
-                </a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
 
             </div>
 
 
-            <!-- DEMO CAFE INFO -->
-
             <div>
 
                 <h4>
-                    Visit Us
+                    Visit
                 </h4>
 
                 <p>
@@ -492,54 +410,40 @@
                 </p>
 
                 <p>
-                    Open Daily · 8 AM – 10 PM
+                    Open Daily<br>
+                    8:00 AM – 10:00 PM
                 </p>
-
-            </div>
-
-
-            <!-- DESIGNER CONTACT -->
-
-            <div>
-
-                <h4>
-                    Website Designer
-                </h4>
-
-                <p>
-                    Harsh the Web Designer
-                </p>
-
-                <a href="mailto:harshwardhankdm@gmail.com">
-                    harshwardhankdm@gmail.com
-                </a>
-
-                <a href="https://instagram.com/harshwebdesignerrr11"
-                    target="_blank">
-                    Instagram: @harshwebdesignerrr11
-                </a>
-
-                <a href="https://wa.me/919987475783"
-                    target="_blank">
-                    WhatsApp: +91 99874 75783
-                </a>
 
             </div>
 
         </div>
 
 
-        <div class="footer-bottom">
+        <div class="container footer-bottom">
 
             <p>
-                © 2026 VELORA. All rights reserved.
+                © <span id="year"></span> VELORA Café. All rights reserved.
             </p>
 
             <p>
-                Designed by
-                <strong>
-                    Harsh the Web Designer
-                </strong>
+                Website by
+                <strong>Harsh the Web Designer</strong>
+            </p>
+
+            <p>
+                <a href="https://instagram.com/harshwebdesignerrr11"
+                   target="_blank">
+                    Instagram
+                </a>
+                ·
+                <a href="mailto:harshwardhankdm@gmail.com">
+                    Email
+                </a>
+                ·
+                <a href="https://wa.me/919987475783"
+                   target="_blank">
+                    WhatsApp
+                </a>
             </p>
 
         </div>
@@ -547,22 +451,21 @@
     </footer>
 
 
-    <!-- ================= WHATSAPP FLOATING BUTTON ================= -->
+    <!-- ================= FLOATING WHATSAPP ================= -->
 
-    <a href="https://wa.me/919987475783"
-        class="whatsapp-btn"
+    <a
+        href="https://wa.me/919987475783"
         target="_blank"
-        aria-label="Chat with Harsh the Web Designer on WhatsApp">
+        class="whatsapp-float"
+        aria-label="Chat on WhatsApp">
 
         WhatsApp
 
     </a>
 
 
-    <!-- ================= JAVASCRIPT ================= -->
-
     <script src="script.js"></script>
 
 </body>
 
-  </html>
+    </html>
