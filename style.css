@@ -180,3 +180,26 @@ h2 span {
     max-width: 600px;
     color: var(--muted);
     margin: 28px
+/* ================= MOBILE MENU ================= */
+
+@media (max-width: 900px) {
+
+    .nav.active {
+        display: flex;
+        position: absolute;
+        top: 78px;
+        left: 0;
+        width: 100%;
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        background: #11100e;
+        border-bottom: 1px solid rgba(244, 238, 228, 0.12);
+    }
+
+    .nav.active a {
+        font-size: 15px;
+    }
+
+}
